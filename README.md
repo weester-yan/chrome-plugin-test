@@ -72,6 +72,3 @@ driver = webdriver.Remote(command_executor='http://localhost:4444',options=chrom
 - 每次开启一个chrome实例都返回一个session ID，可以考虑是否用来作为用户ID（需考虑使用同一个user_data_dirs启动的实例，sessionID是否不变）
 - 每个chrome实例都可以配置一个user_data_dirs，可以保证用户数据隔离
 
-需求文档：
-
-https://connect-ai.feishu.cn/docx/MMK0dAtmdoBklDxr4RXcYchrnXg?from=from_copylink
